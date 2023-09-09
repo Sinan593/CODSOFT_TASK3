@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sinan's portfolio</title>
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   
+
+    <!-- Google material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    
+    <!-- TYPE JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+        integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- jQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- SWEET ALERT -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- EMAIL JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("sinan.mohd593@gmail.com");
+        })();
+    </script>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+        <div class="max-width">
+            <div class="logo">
+                <a href="#"><span> SINAN's PORTFOLIO</span></a>
+            </div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="material-icons">menu</i>
+            </div>
+        </div>
+    </nav>
+ 
+    <button id="btnScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1" data-aos="fade-up">Hello, my name is</div>
+                <div class="text-2">MOHAMMED SINAN</div>
+                <div class="text-3">I'm  <span class="typing"></span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title" data-aos="fade-down">About Me</h2>
+            <div class="about-content">
+                <div class="column left" data-aos="fade-right">
+                    <img src="my image.jpeg" alt="" />
+                </div>
+                <div class="column right" data-aos="fade-up">
+                    <div class="text">
+                        I'm Mohammed Sinan and I'm  <span class="typing-2"></span>
+                    </div>
+                    <p class="paragraph">
+                        As a Computer Science student, I am passionate about technology and possess a strong foundation
+                        in programming languages, algorithms, and software development. I enjoy tackling complex
+                        problems and am driven by a curiosity to explore emerging technologies. Collaboration and
+                        adaptability are key strengths, and I thrive in dynamic environments. I am dedicated to
+                        continuous learning and excited to contribute to meaningful projects in the field of computer
+                        science.
+                    </p>
+                    <a href="https://drive.google.com/file/d/1u_h717OEztHTFEqTFubO3H6r1XVIOuii/view?usp=drivesdk1u_h717OEztHTFEqTFubO3H6r1XVIOuii/view?usp=drivesdk">Download
+                        Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title" data-aos="fade-down">My Services</h2>
+            <div class="serv-content">
+                <div class="card" data-aos="flip-left">
+                    <div class="box">
+                        <i class="fas fa-laptop-code"></i>
+                        <div class="text">web developer</div>
+                        <p>
+                            As a web developer, I create and maintain websites and web applications. My services
+                            encompass front-end and back-end development, e-commerce solutions, custom web applications,
+                            and SEO optimization. I prioritize user experience, security, and performance while offering
+                            ongoing maintenance and support to clients for a robust online presence.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" data-aos="flip-left">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">cloud computing</div>
+                        <p>
+                            As a cloud computing engineer, I design, implement, and manage cloud-based solutions for
+                            businesses. My services include cloud architecture, migration, and optimization, ensuring
+                            scalability, security, and cost-efficiency. I leverage platforms like AWS, Azure, and Google
+                            Cloud to empower organizations with flexible and reliable cloud infrastructure and services.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" data-aos="flip-left">
+                    <div class="box">
+                        <i class="fas fa-mobile-alt"></i>
+                        <div class="text">networking</div>
+                        <p>
+                            As a networking engineer, I design, implement, and manage computer networks. My services
+                            include network architecture, configuration, and troubleshooting. I optimize network
+                            performance, ensure security, and provide scalable solutions. My expertise ensures seamless
+                            communication, efficient data transfer, and network reliability for businesses and
+                            organizations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section  -->
+    <section class="skills" id="skills">
+        <div class="max-width" data-aos="fade-down">
+            <h2 class="title" data-aos="fade-up">My Skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">
+                        My creative skills & experiences.
+                    </div>
+                    <p class="paragraph-2">
+                        As a fresh computer engineer, my creative skills and passion for innovation drive my approach to
+                        problem-solving and coding. My academic foundation and project experiences have equipped me with
+                        valuable technical skills, enabling me to contribute to software development, web design, and
+                        system optimization with fresh perspectives and enthusiasm.
+                    </p>
+                    <a href="#about">Read More</a>
+                </div>
+                <div class="column right skill-box">
+                    <div class="icons">
+                        <img src="css-3.png" alt="css" id="css-icon" data-aos="flip-left" class="skills-icon">
+                        <img src="java-script.png" alt="js" id="js-icon" data-aos="flip-left" class="skills-icon">
+                        <img src="atom.png" alt="react" id="react-icon" data-aos="flip-left" class="skills-icon">
+                        <img src="python.png" alt="flutter" id="python-icon" data-aos="flip-left" class="skills-icon">
+                    </div>
+                    <div class="icons">
+                        <img src="html-5.png" alt="html" , id="html-icon" data-aos="flip-left" class="skills-icon">
+                        <img src="nodejs.png" alt="nodedjs" id="nodejs-icon" data-aos="flip-left" class="skills-icon">
+                        <img src="java.png" alt="java" id="java-icon" data-aos="flip-left" class="skills-icon">
+                        <img src="server.png" alt="c++" id="cloud computing-icon" data-aos="flip-left"
+                            class="skills-icon">
+                    </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title" data-aos="fade-down">Contact Me</h2>
+            <div class="contact-content">
+                <div class="column left" data-aos="flip-left">
+                    <div class="text">Let's Get in Touch</div>
+                    <p class="paragraph-3">let's stay connected! If you have any more questions or need assistance in
+                        the future, don't hesitate to reach out. I'm here to help.
+                    </p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name:</div>
+                                <div class="sub-title">Mohammed Sinan</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address:</div>
+                                <div class="sub-title">Manjeshwar,Kasargod</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email:</div>
+                                <div class="sub-title">sinan.mohd593@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right" data-aos="flip-right">
+                    <div class="text">
+                        Message Me
+                    </div>
+                    <form action="#Contact">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" id="fromName" placeholder="Name" required autocomplete="off">
+                            </div>
+                            <div class="field email">
+                                <input type="email" id="emailSender" placeholder="Email" required autocomplete="off">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" id="subjectSender" placeholder="Subject" required autocomplete="off">
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" id="message" placeholder="Message" required
+                                autocomplete="off"></textarea>
+                        </div>
+                        <div class="button">
+                            <button onclick='sendMail()' type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section  -->
+    <footer>
+        <div class="text-center">
+            <span>
+                Created By <a href="#">Mohammed Sinan</a> | <span class="far fa-copyright"> </span>
+                <script>document.write(new Date().getFullYear())</script> All rights reserved.
+                <div>
+                  <p>click on to checkout my</p>
+                    <a href="https://www.linkedin.com/in/mohammed-sinan-860326248" >linkedin   /<i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Sinan593">  github<i class="fab fa-github"></i></a>
+
+                </div>
+            </span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+       
+        window.onscroll = function () { myFunction() };
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({ easing: 'ease-in', delay: 100, duration: 300, offset: 100 }); window.addEventListener('load', AOS.refresh);</script>
+</body>
+
+</html>

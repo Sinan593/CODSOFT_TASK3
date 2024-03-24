@@ -421,14 +421,14 @@ section .title::after {
     border-radius: 10px;
 }
 
-#css-icon:hover {
+#vs-icon:hover {
     -webkit-filter: drop-shadow(0 0 10px #264de4);
     filter: drop-shadow(0 0 10px #264de4);
 }
 
-#js-icon:hover {
-    -webkit-filter: drop-shadow(0 0 10px #f0db4f);
-    filter: drop-shadow(0 0 10px #f0db4f);
+#cs-icon:hover {
+    -webkit-filter: drop-shadow(0 0 10px green);
+    filter: drop-shadow(0 0 10px green);
 }
 
 #react-icon:hover {
@@ -436,17 +436,17 @@ section .title::after {
     filter: drop-shadow(0 0 10px #61DBFB);
 }
 
-#flutter-icon:hover {
-    -webkit-filter: drop-shadow(0 0 10px #44d1fd);
-    filter: drop-shadow(0 0 10px #44d1fd);
+#python-icon:hover {
+    -webkit-filter: drop-shadow(0 0 10px yellow);
+    filter: drop-shadow(0 0 10px yellow);
 }
 
-#html-icon:hover {
-    -webkit-filter: drop-shadow(0 0 10px #e34c26);
-    filter: drop-shadow(0 0 10px #e34c26);
+#ai-icon:hover {
+    -webkit-filter: drop-shadow(0 0 10px white);
+    filter: drop-shadow(0 0 10px white);
 }
 
-#vscode-icon:hover {
+#cloud_computing-icon:hover {
     -webkit-filter: drop-shadow(0 0 10px #0078d7);
     filter: drop-shadow(0 0 10px #0078d7);
 }
@@ -456,9 +456,9 @@ section .title::after {
     filter: drop-shadow(0 0 10px #3c873a);
 }
 
-#cpp-icon:hover {
-    -webkit-filter: drop-shadow(0 0 10px #0080ff);
-    filter: drop-shadow(0 0 10px #0080ff);
+#c-icon:hover {
+    -webkit-filter: drop-shadow(0 0 10px purple);
+    filter: drop-shadow(0 0 10px purple);
 }
 
 

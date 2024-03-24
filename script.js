@@ -32,7 +32,7 @@ $(document).ready(function () {
 
  
   var typed = new Typed(".typing",{
-      strings: [ "a software developer","a open source contributor","a lover of innovation","good in project management"],
+      strings: [ "a beginner backend-end developer","an enthusiastic machine learning engineer  ","a lover of innovation","good in project management"],
       typeSpeed: 100,
       backSpeed: 60,
       loop: true,
@@ -40,7 +40,7 @@ $(document).ready(function () {
       
   });
   var typed = new Typed(".typing-2",{
-      strings: ["a software developer","a open source contributor","a lover of innovation","good in project management"],
+      strings: ["a beginner backend-end developer", "an enthusiastic machine learning engineer  ", "a lover of innovation", "good in project management"],
       typeSpeed: 100,
       backSpeed: 60,
       loop: true,
